@@ -13,8 +13,7 @@ frame is known exactly, so the trackers can be scored against ground truth.
 | ![high signal](data/track_signal1000.gif) | ![low signal](data/track_signal300.gif) |
 
 *Cyan trail: true path. Red circle: tracked position. When the particle is bright
-the two overlap; as the signal drops, the tracked position scatters around the
-truth.*
+the two overlap; as the signal drops, the tracked position may be off for some frames.
 
 ## 1. Simulating the images
 
