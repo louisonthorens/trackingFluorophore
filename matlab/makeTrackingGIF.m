@@ -49,8 +49,8 @@ function makeTrackingGIF(stack, posTrue, posTrack, filename, opts)
 
         % tracker overlay at the current frame (cyan)
         if ~isempty(posTrack)
-            plot(ax, posTrack(t,1), posTrack(t,2), 'x', 'Color',[0 1 1], ...
-                 'MarkerSize',11,'LineWidth',1.8);
+            plot(ax, posTrack(t,1), posTrack(t,2), 'o', 'Color','red', ...
+                 'MarkerSize',11,'LineWidth',2);
         end
         drawnow
 
