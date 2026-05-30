@@ -60,7 +60,7 @@ well.
 
 | Bright particle (high signal) ML track | Dim particle (low signal) ML track |
 |---|---|
-| ![high signal](data/track_signalML1000.gif) | ![low signal](data/track_signalML300.gif) |
+| ![high signal](data/track_signal_ML1000.gif) | ![low signal](data/track_signal_ML300.gif) |
 
 ## Quick start
 
