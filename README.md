@@ -62,6 +62,8 @@ well.
 |---|---|
 | ![high signal](data/track_signal_ML1000.gif) | ![low signal](data/track_signal_ML300.gif) |
 
+Side by side with the classical tracks above, the two are visually indistinguishable.
+
 ## Quick start
 
 ```matlab
@@ -87,7 +89,7 @@ rmseFit = sqrt(mean(sum((posFit - pos).^2, 2)));
 rmseML  = sqrt(mean(sum((posML  - pos).^2, 2)));
 
 % --- make a GIF ---
-makeTrackingGIF(stack, pos, posFit, 'figures/track.gif');
+makeTrackingGIF(stack, pos, posFit, 'data/track.gif');
 ```
 
 ## Requirements
